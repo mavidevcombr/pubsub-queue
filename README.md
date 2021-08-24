@@ -3,7 +3,7 @@
 ## How to install
 
 ``` sh
-npm install --save mavidev/pubsub-queue
+npm install --save mavidevcombr/pubsub-queue
 ```
 
 ### How to instantiate class
