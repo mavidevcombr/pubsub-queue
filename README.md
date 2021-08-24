@@ -3,14 +3,14 @@
 ## How to install
 
 ``` sh
-npm install --save git+ssh://git@gitlab.airstrip.com.br:6622/node-libs/pubsub-queue.git
+npm install --save mavidev/pubsub-queue
 ```
 
 ### How to instantiate class
 
 
- - Param **project_id** - ``` string ``` : ``` airstrip-proj ```
- - Param **topic_name** - ``` string ``` : ``` capture_fb_ser ```
+ - Param **project_id** - ``` string ``` : ``` example-proj ```
+ - Param **topic_name** - ``` string ``` : ``` example_topic ```
 
 ``` js
 var pubSubQueue = new PubSubQueue(project_id, topic_name);
@@ -28,7 +28,7 @@ await pubSubQueue.sendJob(data);
 
 ### How to get job from subscriber
 
- - Param **subscriber_name** - ``` string ``` : ``` sub_capture_fb_user ``` - name of subscriber
+ - Param **subscriber_name** - ``` string ``` : ``` example_sub ``` - name of subscriber
  - Param **limit** - ``` int ``` : 10 - Quantity of messages to receive
 
 
@@ -57,9 +57,11 @@ do_process();
 
 
 ### Release notes
-#### 1.0.6
- - Bugfix base64 buffer enconding
+#### 1.0.7
  - Bugfix readme
+#### 1.0.6
+ - Bugfix readme
+ - Bugfix base64 buffer enconding
 #### 1.0.5
  - Bugfix base64 buffer enconding
 
