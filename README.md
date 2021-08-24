@@ -3,7 +3,7 @@
 ## How to install
 
 ``` sh
-npm install --save mavidevcombr-pubsub-queue
+npm install --save mavidevcombr-google-pubsub-queue
 ```
 
 ### How to instantiate class
@@ -13,7 +13,7 @@ npm install --save mavidevcombr-pubsub-queue
  - Param **topic_name** - ``` string ``` : ``` example_topic ```
 
 ``` js
-const PubSubQueue = require('mavidevcombr-pubsub-queue');
+const PubSubQueue = require('mavidevcombr-google-pubsub-queue');
 var pubSubQueue = new PubSubQueue(project_id, topic_name);
 ```
 
