@@ -13,6 +13,7 @@ npm install --save mavidevcombr-pubsub-queue
  - Param **topic_name** - ``` string ``` : ``` example_topic ```
 
 ``` js
+const PubSubQueue = require('mavidevcombr-pubsub-queue');
 var pubSubQueue = new PubSubQueue(project_id, topic_name);
 ```
 
